@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="NodeTest" project="SkipList" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testcase name="testNode" classname="NodeTest" incomplete="true"/>
+  <testsuite name="Unrooted Tests" displayname="Unrooted Tests">
+    <testcase name="NodeTest" classname="NodeTest" displayname="NodeTest">
+      <error>java.lang.UnsupportedOperationException: The Security Manager is deprecated and will be removed in a future release
+	at java.base/java.lang.System.setSecurityManager(System.java:429)
+	at student.testingsupport.ExitPreventingSecurityManager$2.run(ExitPreventingSecurityManager.java:155)
+	at student.testingsupport.ExitPreventingSecurityManager$2.run(ExitPreventingSecurityManager.java:148)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319)
+	at student.testingsupport.ExitPreventingSecurityManager.install(ExitPreventingSecurityManager.java:147)
+	at student.TestCase.installExitHandler(TestCase.java:1335)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>

@@ -1,0 +1,27 @@
+import org.junit.Before;
+import org.junit.Test;
+import student.TestCase;
+
+public class NodeTest extends TestCase {
+
+	@Before
+	public void setUp() {
+		// Nothing here
+	}
+
+	@Test
+	public void testNode() {
+		Node a = new Node(5);
+		assertEquals(a.key, 5);
+//		System.out.println("Testing here!!!");
+		assertNull(a.below);
+	}
+
+	public void testMain() {
+		systemOut().clearHistory();
+		String[] args = { "Input2.txt" };
+		SkipList.main(args);
+		String output = systemOut().getHistory();
+		assertEquals(output, "Hello World!");
+	}
+}

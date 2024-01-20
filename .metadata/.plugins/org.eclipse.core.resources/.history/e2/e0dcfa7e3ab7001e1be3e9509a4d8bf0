@@ -1,0 +1,14 @@
+
+public class SkipList {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+
+	private Node head;
+	private Node tail;
+	
+	private final int NEG_INFINITY = Integer.MIN_VALUE;
+	private final int POS_INFINITY = Integer.MAX_VALUE;
+	
+	
+}
