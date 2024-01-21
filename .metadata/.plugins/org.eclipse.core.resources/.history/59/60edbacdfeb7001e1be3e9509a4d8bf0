@@ -53,13 +53,16 @@ public class SkipList {
 		Node q;
 
 		int level = -1;
+		int numberOfHeads = -1;
 
 		if (position.key == key) {
 			return position;
 		}
 
 		do {
-			canIncreaseLevel(++level);
+			numberOfHeads++;
+			level++;
+			canIncreaseLevel(level);
 
 			q = position;
 
@@ -80,7 +83,7 @@ public class SkipList {
 		Node nodeToBeRemoved = skipSearch(key);
 
 		if (nodeToBeRemoved.key != key) {
-			System.out.println("Node with value " + key + " does not exist!!!");
+			System.out.println("Node with value " + key + " does not exist");
 			return null;
 		}
 
