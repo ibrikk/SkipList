@@ -1,9 +1,140 @@
 <SensorData>
 <Timestamp>
-1705721412163
+1705801357410
 </Timestamp>
 <Runtime>
-1705721412163
+1705801357410
+</Runtime>
+<Tool>
+Eclipse
+</Tool>
+<SensorDataType>
+DevEvent
+</SensorDataType>
+<URI>
+/Users/Ibo/Documents/SkipList/SkipList/src/SkipList.java
+</URI>
+<ProjectURI>
+/Users/Ibo/Documents/SkipList/SkipList
+</ProjectURI>
+<Properties>
+<Property>
+<Name>
+Type
+</Name>
+<Value>
+Debug
+</Value>
+</Property>
+<Property>
+<Name>
+Subtype
+</Name>
+<Value>
+Terminate
+</Value>
+</Property>
+</Properties>
+</SensorData>
+<SensorData>
+<Timestamp>
+1705801358903
+</Timestamp>
+<Runtime>
+1705801358903
+</Runtime>
+<Tool>
+Eclipse
+</Tool>
+<SensorDataType>
+DevEvent
+</SensorDataType>
+<URI>
+/Unknown
+</URI>
+<ProjectURI>
+/Unknown
+</ProjectURI>
+<Properties>
+<Property>
+<Name>
+Type
+</Name>
+<Value>
+Termination
+</Value>
+</Property>
+<Property>
+<Name>
+Class-Name
+</Name>
+<Value>
+SkipList (1)
+</Value>
+</Property>
+<Property>
+<Name>
+Subsubtype
+</Name>
+<Value>
+Error
+</Value>
+</Property>
+<Property>
+<Name>
+ConsoleOutput
+</Name>
+<Value>
+SkipList starting with top-left most node.
+
+Level: 3
+-2147483648 : 2147483647
+Level: 2
+-2147483648 : 15 : 2147483647
+Level: 1
+-2147483648 : 15 : 2147483647
+Level: 0
+-2147483648 : 4 : 6 : 15 : 2147483647
+
+SkipList starting with top-left most node.
+
+Level: 3
+-2147483648 : 2147483647
+Level: 2
+-2147483648 : 15 : 2147483647
+Level: 1
+-2147483648 : 15 : 2147483647
+Level: 0
+-2147483648 : 6 : 15 : 2147483647
+
+SkipList starting with top-left most node.
+
+Level: 3
+-2147483648 : 2147483647
+Level: 2
+-2147483648 : 15 : 2147483647
+Level: 1
+-2147483648 : 15 : 2147483647
+Level: 0
+-2147483648 : 6 : 15 : 2147483647
+</Value>
+</Property>
+<Property>
+<Name>
+Subtype
+</Name>
+<Value>
+Debug
+</Value>
+</Property>
+</Properties>
+</SensorData>
+<SensorData>
+<Timestamp>
+1705801358903
+</Timestamp>
+<Runtime>
+1705801358903
 </Runtime>
 <Tool>
 Eclipse

@@ -2,18 +2,18 @@ import java.util.Random;
 
 public class SkipList {
 	public static void main(String[] args) {
-
+		
 		SkipList sk = new SkipList();
-
+		
 		sk.skipInsert(6);
 		sk.skipInsert(15);
 		sk.skipInsert(4);
-
+		
 		sk.printSkipList();
-
+		
 		sk.remove(4);
 		sk.printSkipList();
-
+		
 		sk.remove(7);
 		sk.printSkipList();
 	}
@@ -81,11 +81,6 @@ public class SkipList {
 
 	public Node remove(int key) {
 		Node nodeToBeRemoved = skipSearch(key);
-
-		if (nodeToBeRemoved.key != key) {
-			System.out.println("Node with value " + key + " does not exist");
-			return null;
-		}
 
 		while (nodeToBeRemoved != null) {
 			removeReferencesToNode(nodeToBeRemoved);

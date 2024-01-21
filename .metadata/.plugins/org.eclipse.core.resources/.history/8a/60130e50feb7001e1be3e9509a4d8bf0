@@ -83,7 +83,6 @@ public class SkipList {
 		Node nodeToBeRemoved = skipSearch(key);
 
 		if (nodeToBeRemoved.key != key) {
-			System.out.println("Node with value " + key + " does not exist");
 			return null;
 		}
 
